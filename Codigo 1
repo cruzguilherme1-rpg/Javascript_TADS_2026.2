@@ -1,0 +1,18 @@
+function nome_alunos(alunos) {
+    const Nome_aln = [];
+    for (let i = 0; i < alunos; i++) {
+        let nome = prompt("digite o nome do aluno: ");
+        Nome_aln.push(nome);
+    } return Nome_aln;
+}
+
+function matriculas_alunos(alunos) {
+    const mtr_aln = [];
+    for (let i = 0; i < alunos; i++) {
+        let numero = prompt("digite a matricula do aluno: ");
+        mtr_aln.push(numero);
+    } return mtr_aln;
+}
+
+var nomes = Number(prompt("digite a quantidadede alunos: "));
+console.log(nome_alunos(nomes), matriculas_alunos(nomes));
